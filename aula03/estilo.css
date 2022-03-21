@@ -1,0 +1,24 @@
+/*Este é minha folha de estilo CSS*/
+body{
+	font-family: Tahoma;
+}
+h1{
+	font-size: 40pt;
+	color: #00BFFF;
+	background-color: #052973;
+	text-align: center;
+	padding: 30px;
+	margin: 30px;
+}
+
+.destaque{
+	font-size: 15px;
+	text-align: left;
+	color: #8B3A3A;
+}
+
+.pequeno{
+	font-size: 10px;
+	color: #27408B;
+	text-align: center;
+}
