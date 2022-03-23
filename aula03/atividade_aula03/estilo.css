@@ -8,15 +8,18 @@ h1{
 	font-family: sans-serif;
 	color: #024959;
 	text-align: center;
-	padding: 20px;
-	margin-bottom: 5px;
 }
 
 h2{
 	font-family: sans-serif;
-	font-size: 20pt;
-	color: #024959;
-	margin-left: 600px;
+    color: rgb(32, 93, 118);
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#texto{
+    margin-top: 30px;
 }
 
 img.topo{
@@ -25,39 +28,56 @@ img.topo{
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-    padding: 70px;
+    padding: 40px;
 }
 
-img.imagem{
-	text-align: center;
-	width: 200px;
-	display: block;
-	margin-left: 250px;
-	float: left;
-	display: inline-block;        
+section{
+	display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 50px 30px;
+}
+
+.container{
+	margin-left: 500px;
+}
+
+.container img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.grid-item{
+    padding: 10px;
 }
 
 ul {
 	color: #F2A71B;
-	margin-left: 600px;	
+	list-style: none;
 }
 
-
-a {
-	font-family: sans-serif;
-	font-size: 10pt;
-	color: #F27457;
-	text-align: center;
+a{
+	text-decoration: underline;
+    color:#F27457;
 }
 
-p.pequeno{
+li::before{
+    content: "• "; 
+    color: rgb(235, 199, 42);    
+}
+
+.pequeno{
 	background-color: #F2C12E;
 	font-size: 10pt;
 	font-family: sans-serif;
 	color: white;
 	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
+	margin-top: 60px;
+    width: 100%;
     padding: 10px;
 	margin: 10px;
 }
