@@ -14,12 +14,11 @@ h2{
 	font-family: sans-serif;
     color: rgb(32, 93, 118);
     font-size: 25px;
-    margin: 0;
-    padding: 0;
+    
 }
 
 #texto{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 img.topo{
@@ -40,6 +39,7 @@ section{
 
 .container{
 	margin-left: 500px;
+	
 }
 
 .container img{
@@ -49,10 +49,12 @@ section{
     max-height:150px;
     width: auto;
     height: auto;
+	display: block;
 }
 
 .grid-item{
     padding: 10px;
+	
 }
 
 ul {
@@ -72,7 +74,7 @@ li::before{
 
 .pequeno{
 	background-color: #F2C12E;
-	font-size: 10pt;
+	font-size: 12pt;
 	font-family: sans-serif;
 	color: white;
 	text-align: center;
