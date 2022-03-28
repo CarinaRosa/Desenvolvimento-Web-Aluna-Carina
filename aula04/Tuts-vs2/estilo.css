@@ -1,0 +1,17 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #faf8da;
+    margin: 0;
+}
+
+/* Como inserir uma fonte do diretorio
+@font-face {
+    font-family: Brokenbrush;
+    src: url('../Fonts/Brokenbrush.ttf');
+}
+
+h1{
+    font-family: 'Brokenbrush', sans-serif;
+}
+*/
+
