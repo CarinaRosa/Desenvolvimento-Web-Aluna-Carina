@@ -57,5 +57,17 @@ li{
 }
 
 a{
-    color: #;
+    color: #ea6e2f;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #ff6122;
+    text-align: center;
+    padding: 2px;
+}
+
+p{
+    color: white;
+    
 }
