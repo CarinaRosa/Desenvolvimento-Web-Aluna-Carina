@@ -64,22 +64,28 @@ a{
 }
 
 article{
-    display: inline-flex;
-    margin-top: 50px;
+    display: inline-block;
+    margin-top: 30px;
     
 }
 
 .section{
-    display: inline-flex;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
     margin: auto;
-    padding: auto;
+    padding: 10px;
     width: 300px;
 }
 
 article p{
-    width: 20px;
+    width: 250px;
+    text-align: justify;
+    margin-right: 0;
 
+}
+
+article h2{
+    width: 300px;
 }
 
 footer{
