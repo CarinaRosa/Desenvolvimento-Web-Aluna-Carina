@@ -1,16 +1,18 @@
 body{
     font-family: Helvetica, sans-serif, Arial;
+    
 }
 
 .container{
     text-align: center;
-    margin: auto;
-    padding: auto;    
+    margin: center;
+    padding: 10px 70px 10px 70px;
+    display: block;    
 }
 
 .logo{
     display: block;
-    margin-left: 100px;
+    margin-left: 40px;
     padding: 10px;
     
 }
@@ -24,6 +26,10 @@ body{
     margin-left: 950px;
        
 }
+
+.menu :hover{
+    text-decoration: underline;
+}
 li a{
     text-decoration: none;
     padding: 10px;
@@ -33,28 +39,48 @@ li a{
 
 .banner{
     display: block;
-    margin: 0px auto;
+    margin: 0px auto;  
+    margin-top: 10px; 
+    width: 1250px; 
 }
 
 .caixa{
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 750px;
+    padding: 30px 20px 30px 20px;
+    width: 500px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: -350px;
+    line-height: 20px;
+    height: 150px;
 
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: grey;
 }
 
 article{
-    display: flex;
-    margin: 10px;
-    width: 50px;
+    display: inline-flex;
+    margin-top: 50px;
+    
 }
 
-.article{
-    width: 50px;
+.section{
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width: 300px;
 }
 
+article p{
+    width: 20px;
+
+}
 
 footer{
     text-align: left;
