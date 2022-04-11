@@ -6,7 +6,7 @@ body{
 #container{
     text-align: center;
     margin: center;
-    padding: 10px 70px 10px 70px;
+    width: 10px 70px 10px 70px;
     display: block;    
 }
 
