@@ -154,3 +154,57 @@ footer{
 /*Media Query*/
 
 
+@media screen and (max-width: 1128px){
+    .container{
+        padding: 0 2.4em 0 2.4em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .caixa{
+        width: 65%;        
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    article{
+        width: 48%;
+        margin-right: 4%;
+        margin-bottom: 2.4em;
+    }
+
+    article:nth-child(even){
+        margin-right: 0;
+    }
+
+    .logo{
+        width: 25%;
+        margin-top: 1.2em;
+    }
+}
+
+@media screen and (max-width: 718px) {
+    .banner{
+        position: relative;
+        float: left;
+        height: 250px;
+    }
+
+    .caixa{
+        width: 100%;
+        position: relative;
+        background: #000;
+        display: block;
+        margin-top: 250px;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+    
+    section{
+        margin-top: 600px;
+    }
+}
