@@ -18,16 +18,6 @@ a{
     color: #00ccff;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
-*,*:after, *:before{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;    
-}
-
 /*
 Todo 'a' vem por default sublinhado, para mudar isso deve-se usar as seguintes propriedades:
 text-decoration: none ==> retira o sublinhado;
@@ -37,6 +27,9 @@ text-decoration: underline overline ==> coloca sobre e sublinhado juntos;
 text-decoration: line-through ==> coloca uma linha em cima do texto.
 */
 
+a:hover{ /*Hover é uma pseudo-classe*/
+    text-decoration: underline;
+}
 
 /*
 Como estilizar o comportamento do mouse
@@ -45,6 +38,12 @@ a:visited estiliza o estado VISITED (é o aspecto que o link assume quando o usu
 a:hover estiliza o estado OVER (é o aspecto do link depois que foi visitado pelo usuário);
 a:active estiliza o estado link ativo (é o aspecto do link ativo, isto é, aquele que foi clicado pelo usuário.);
 */
+
+*,*:after, *:before{
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
 
 .container{
     max-width: 1128px;
