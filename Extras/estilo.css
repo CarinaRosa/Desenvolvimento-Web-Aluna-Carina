@@ -80,7 +80,7 @@ p{
     font-size: 16px;
     text-align: left;
     margin-top: 60px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-left: 20px;
 }
 
@@ -93,7 +93,8 @@ ul li{
 .pindex{
     font-size: 16px;
     text-align: center;
-    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
     color: rgb(63, 63, 63);
 }
 
@@ -110,11 +111,43 @@ ul li{
     margin-left: 0;
 }
 
-.ul{
+article{
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+article img{
+    text-align: center;
+    width: 350px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 150px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+article ul{
+    /*display: inline-block;*/
+    text-align: top;
+    margin-left: 150px;
+    list-style-type: none;
+}
+
+.conhecimento{
+    display: inline-block;
+    text-align: top;
+    margin-left: 50px;
+}
+
+/*.ul{
     list-style-type: none;
     text-align: center;
     margin-left: 0;
-}
+    display: inline-block;
+    text-align: top;
+    margin-left: 50px;
+}*/
 
 footer p{
     font-size: 12px;
