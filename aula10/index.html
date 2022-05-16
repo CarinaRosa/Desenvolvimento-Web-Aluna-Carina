@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../bootstrap1/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Pagina Principal</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container clearfix">
 
         <header>
-
-            <a href="index.html" target="_self">
-                <img src="./img/pp.jpg" alt="Minha foto">
-            </a>
-            <nav>
+            <nav class="navbar navbar-dark bg-dark">
+                <a href="index.html" target="_self">
+                    <img src="../img/pp.jpg" alt="Minha foto" width="90" height="120" class="rounded">
+                </a>
                 <ul>
-                    <li><a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/aula02/" target="_blank">Aula 02</a></li>
+                    <li><a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/aula02/" target="_blank" class="text-light bg-dark">Aula 02</a></li>
                 </ul>
                 <ul>
-                    <li><a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/aula03/" target="_blank">Aula 03</a></li>
+                    <li><a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/aula03/" target="_blank" class="text-light bg-dark">Aula 03</a></li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="index.html" target="_self">Tuts Town</a>
+                        <a href="index.html" target="_self" class="text-light bg-dark">Tuts Town</a>
                             <ul>
-                                <li>
-                                    <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/TutsTown/Feito%20em%20casa/" target="_blank">Feito em Casa</a>
+                                <li class="text-light bg-dark">
+                                    <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/TutsTown/Feito%20em%20casa/" target="_blank" class="text-light bg-dark">Feito em Casa</a>
                                 </li>
-                                <li>
-                                    <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/TutsTown/Feito%20em%20sala/" target="_blank">Feito em Sala</a>
+                                <li class="text-light bg-dark">
+                                    <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/TutsTown/Feito%20em%20sala/" target="_blank" class="text-light bg-dark">Feito em Sala</a>
                                 </li>
                                 
                             </ul>
@@ -38,23 +37,27 @@
                 </ul>
                 <ul>
                     <li>
-                        <a href="index.html" target="_self">Design Digital</a>
+                        <a href="index.html" target="_self" class="text-light bg-dark">Design Digital</a>
                         <ul>
-                            <li>
-                                <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/DesignDigital/Feito%20em%20casa/" target="_blank">Feito em Casa</a>
+                            <li class="text-light bg-dark">
+                                <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/DesignDigital/Feito%20em%20casa/" target="_blank" class="text-light bg-dark">Feito em Casa</a>
                             </li>
-                            <li>
-                                <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/DesignDigital/Feito%20em%20sala/" target="_blank">Feito em Sala</a>
+                            <li class="text-light bg-dark">
+                                <a href="https://carinarosa.github.io/Desenvolvimento-Web-Aluna-Carina/DesignDigital/Feito%20em%20sala/" target="_blank" class="text-light bg-dark">Feito em Sala</a>
                             </li>
                         </ul>
                     </li>
                 </ul> 
                 <ul>
                     <li>
-                        <a href="./Extras/extra.html" target="_self">Extras</a>
+                        <a href="./extras.html" target="_self" class="text-light bg-dark">Extras</a>
                     </li>
-                </ul>               
-            </nav>
+                </ul>
+                <!-- <form class="form-inline" class="nav justify-content-end">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form> -->
+            </nav>            
         </header>
         <section>
 
@@ -62,24 +65,46 @@
             <article>
                 <p>Um pouco sobre mim...</p>
 
-                <ul>
-                    <li>Tenho 24 anos e nasci em novembro, sim, escorpiana com ascendente em gemeos o.o</li>
-                    <li>Faço o curso de Analise e Desenvolvimento de Sistemas, cursando o segundo periodo, na Universidade Positivo.</li>
-                    <li>Trabalhei 1 ano e 4 meses na Bosch como Menor Aprendiz na area de Projetos</li>
-                    <li>Fiz curso de Petroleo e Gás (nunca usei mas achei interessante)</li>                    
-                    <li>Fiz curso de Auxiliar Administrativo e de Produção Industrial no SENAI</li>    
-                    <li>Sou formada em Design de Interiores</li>                 
-                    <li>Trabalhei 6 anos e 10 meses na area administrativa da BRF, passei pelas areas de Merchandising, Cormercial, RH e Logistica</li>                                   
-                    <li>Fiz curso de Comissaria de Bordo</li>
-                    <li>E sigo em busca de novas aventuras...</li>
-                </ul>
+                <div>
+                    <ul>
+                        <li>Tenho 24 anos e nasci em novembro, sim, escorpiana com ascendente em gemeos o.o</li>
+                        <li>Faço o curso de Analise e Desenvolvimento de Sistemas, cursando o segundo periodo, na Universidade Positivo.</li>
+                        <li>Trabalhei 1 ano e 4 meses na Bosch como Menor Aprendiz na area de Projetos</li>
+                        <li>Fiz curso de Petroleo e Gás (nunca usei mas achei interessante)</li>                    
+                        <li>Fiz curso de Auxiliar Administrativo e de Produção Industrial no SENAI</li>    
+                        <li>Sou formada em Design de Interiores</li>                 
+                        <li>Trabalhei 6 anos e 10 meses na area administrativa da BRF, passei pelas areas de Merchandising, Cormercial, RH e Logistica</li>                                   
+                        <li>Fiz curso de Comissaria de Bordo</li>
+                        <li>E sigo em busca de novas aventuras...</li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <p>Atualmente os conhecimentos adquiridos na faculdade são:</p>
+                <div>
+                    <ul>
+                        <li>Algoritmos</li>
+                    
+                        <li>Banco de Dados - MySQL</li>
+
+                        <li>Analise de Projetos</li>
+                    
+                        <li>HTML e CSS - Bootstrap</li>
+                   
+                        <li>Linguagem de Programação - PHP</li>
+                    
+                        <li>Linguagem de Programação - Java</li>
+                    
+                        <li>Linguagem de Programação - JavaScript</li>
+                    </ul>
+                </div>
             </article>
 
 
         </section>
         <footer>
-            <p>Bem Vindo ao meu site!
-                Redes Sociais <br> 
+            <p>Bem Vindo ao meu site! <br>
+                Redes Sociais: <br> 
                 Instagram: @araujo.carina <br> GitHub: https://github.com/CarinaRosa</p>
         </footer>
 
