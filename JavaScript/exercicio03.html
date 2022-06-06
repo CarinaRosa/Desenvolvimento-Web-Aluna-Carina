@@ -11,13 +11,13 @@
     <script>
         
         var media = 6;
-        var nota1 = prompt("Digite a primeira nota:");
-        var nota2 = prompt("Digite a segunda nota:");
+        var notaAluno = prompt("Digite a nota do aluno:");
+        // var nota2 = prompt("Digite a segunda nota:");
 
-        if (7 !== "7") {
-            document.write("<p>Entrou no bloco if (verdadeiro).</p>");
+        if (notaAluno >= media) {
+            document.write("<h1>Aprovado!!</h1>");
         } else {
-            document.write("<p>Entrou no bloco else (falso).</p>");
+            document.write("<h1>Em exame final.</h1>");
         }
 
     </script>  
