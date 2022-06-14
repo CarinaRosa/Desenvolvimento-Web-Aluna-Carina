@@ -10,8 +10,8 @@
     <title>Portfólio Cristina Rosa</title>
 </head>
 <body>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <div id="content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info" >
       <a class="navbar-brand text-light font-weight-bold" href="index.html">
         <img src="" alt=""> CrisRosa</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -81,55 +81,107 @@
 
   </header>
 
-  <!-- texto Bio -->
+  
   <section>
-    <article id="sobremim" class="container mt-3 mb-4">
-      
-        <div class="media">
-          <img class="align-self-center mr-3" src="./img/Perfil.jpg" width="280" height="280" alt="Imagem de exemplo genérica">
-          <div class="media-body">
-            <h5 class="mt-4">Mini Bio - Cristina de Araujo Rosa</h5>
-            <p class="mt-4">Sou graduada em Licenciatura em Artes Visuais pela Escola de Música e Belas Artes do Paraná e pós-graduada em Modelagem Plana e Moulage para Moda pela PUCPR. <br> Fui uma das artistas convidadas para a Exposição Linha Preta Curitiba - Inter Americano (Centro de Ensino e cultura oficial dos Estados Unidos), em 2020. Participei do Catálogo Afrotonizar Edição 0 Online e da 1ª Mostra Muchas Minas, em Curitiba – 2021/2022. <br> Como artista plástica, desenvolvo trabalhos em pintura à óleo, digital, aquarela, grafite/nanquim e Cianotipia.</p>
-            
+    
+    <article class="container mt-3">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="./img/Malena.png" alt="Imagem obra MALENA">
+                <div class="card-body">
+                  <h5 class="card-title">MALENA</h5>
+                  <p class="card-text">Colagem <br> 42x29,7 cm <br> 2021</p>            
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Leia mais sobre esta obra</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./img/paço_liberty.png" alt="Imagem obra PAÇO DA LIBERDADE">
+                <div class="card-body">
+                  <h5 class="card-title">PAÇO DA LIBERDADE</h5>
+                  <p class="card-text">Cianotipia <br> 29x30 cm <br> 2019</p>            
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Leia mais sobre esta obra</small>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./img/Autorretrato II.jpeg" alt="Imagem obra AUTORRETRATO II">
+                <div class="card-body">
+                  <h5 class="card-title">AUTORRETRATO II</h5>
+                  <p class="card-text">Aquarela sobre papel <br> 14x21 cm <br> 2020</p>            
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Leia mais sobre esta obra</small>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>  
+          <div class="carousel-item">
+            <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
     </article>
-
     <!-- Cards em 3 colunas -->
-    <article class="mt-3">
+    <!-- <article class="container mt-3">
       <div class="card-group">
         <div class="card">
           <img class="card-img-top" src="./img/Malena.png" alt="Imagem obra MALENA">
           <div class="card-body">
             <h5 class="card-title">MALENA</h5>
-            <p class="card-text">Colagem <br> 42x29,7 cm <br> 2021</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <p class="card-text">Colagem <br> 42x29,7 cm <br> 2021</p>            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Leia mais sobre esta obra</small>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="./img/paço_liberty.png" alt="Imagem obra PAÇO DA LIBERDADE">
           <div class="card-body">
             <h5 class="card-title">PAÇO DA LIBERDADE</h5>
-            <p class="card-text">Cianotipia <br> 29x30 cm <br> 2019</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <p class="card-text">Cianotipia <br> 29x30 cm <br> 2019</p>            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Leia mais sobre esta obra</small>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="./img/Autorretrato II.jpeg" alt="Imagem obra AUTORRETRATO II">
           <div class="card-body">
             <h5 class="card-title">AUTORRETRATO II</h5>
-            <p class="card-text">Aquarela sobre papel <br> 14x21 cm <br> 2020</p>
-            <p class="card-text"><small class="text-muted"></small></p>
+            <p class="card-text">Aquarela sobre papel <br> 14x21 cm <br> 2020</p>            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Leia mais sobre esta obra</small>
           </div>
         </div>
       </div>
-    </article>
-        
-  </section>
-
-  <footer class="container mb-0">
+    </article>-->
+  </section>  
+  <div class="d-flex flex-row-reverse">
+    <a class="" href="#content"><img src="./img/Arrow_top.png" class="topo" alt="flexa que volta para o Topo da pagina"></a>
+  </div>
+  
+  <footer class="mb-0 m-4 pl-2">
     <hr class="my-2">
-    <p>Produzido e elaborado por Carina Rosa</p>
+    <p class="pFooter">Produzido e elaborado por Carina Rosa</p>
+    
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

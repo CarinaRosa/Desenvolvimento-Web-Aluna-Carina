@@ -2,3 +2,17 @@
     width: 200px;
     height: 700px; 
   }
+
+.pFooter{
+    font-size: 12px;
+}
+
+.card-group > .card > img{
+    width: 370px;
+    height: 500px; 
+}
+
+.topo {
+    width: 40px;
+    height: 40px; 
+}
